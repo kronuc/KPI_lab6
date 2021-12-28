@@ -1,0 +1,10 @@
+{
+  "simulation": "Simulations.TestFirstBasicAPISimulation",
+  "simulationId": "testfirstbasicapisimulation",
+  "start": 1640529711889,
+  "description": "",
+  "scenarios": ["api perf tests"],
+  "assertions": [
+
+  ]
+}

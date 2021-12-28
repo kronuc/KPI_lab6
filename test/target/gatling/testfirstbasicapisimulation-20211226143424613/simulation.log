@@ -1,0 +1,41 @@
+RUN	Simulations.TestFirstBasicAPISimulation	testfirstbasicapisimulation	1640529264613	 	3.6.1
+USER	api perf tests	START	1640529266102
+REQUEST		first	1640529266126	1640529266590	OK	 
+USER	api perf tests	START	1640529267096
+REQUEST		first	1640529267097	1640529267261	KO	status.find.is(200), but actually found 429
+USER	api perf tests	START	1640529269097
+REQUEST		first	1640529269097	1640529269378	OK	 
+USER	api perf tests	START	1640529270090
+REQUEST		first	1640529270091	1640529270227	KO	status.find.is(200), but actually found 429
+REQUEST		second	1640529271608	1640529271648	KO	status.find.is(200), but actually found 404
+USER	api perf tests	START	1640529272107
+REQUEST		first	1640529272107	1640529272264	KO	status.find.is(200), but actually found 429
+REQUEST		second	1640529272277	1640529272313	KO	status.find.is(200), but actually found 429
+USER	api perf tests	START	1640529273083
+REQUEST		first	1640529273084	1640529273271	KO	status.find.is(200), but actually found 429
+REQUEST		second	1640529274384	1640529274424	KO	status.find.is(200), but actually found 429
+USER	api perf tests	START	1640529275104
+REQUEST		first	1640529275104	1640529275265	KO	status.find.is(200), but actually found 429
+REQUEST		second	1640529275243	1640529275281	KO	status.find.is(200), but actually found 429
+USER	api perf tests	START	1640529276098
+REQUEST		first	1640529276099	1640529276240	KO	status.find.is(200), but actually found 429
+USER	api perf tests	END	1640529276665
+REQUEST		second	1640529277268	1640529277312	KO	status.find.is(200), but actually found 429
+USER	api perf tests	END	1640529277330
+USER	api perf tests	START	1640529278106
+REQUEST		first	1640529278106	1640529278259	KO	status.find.is(200), but actually found 429
+REQUEST		second	1640529278274	1640529278307	KO	status.find.is(200), but actually found 429
+USER	api perf tests	START	1640529279098
+REQUEST		first	1640529279098	1640529279254	KO	status.find.is(200), but actually found 429
+USER	api perf tests	END	1640529279439
+USER	api perf tests	END	1640529280297
+REQUEST		second	1640529280281	1640529280321	KO	status.find.is(200), but actually found 429
+REQUEST		second	1640529281251	1640529281294	KO	status.find.is(200), but actually found 429
+USER	api perf tests	END	1640529282325
+REQUEST		second	1640529283275	1640529283313	KO	status.find.is(200), but actually found 404
+USER	api perf tests	END	1640529283322
+REQUEST		second	1640529284257	1640529284296	KO	status.find.is(200), but actually found 429
+USER	api perf tests	END	1640529285335
+USER	api perf tests	END	1640529286304
+USER	api perf tests	END	1640529288325
+USER	api perf tests	END	1640529289309

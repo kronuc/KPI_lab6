@@ -1,0 +1,19 @@
+RUN	Simulations.TestFirstBasicAPISimulation	testfirstbasicapisimulation	1640528915480	 	3.6.1
+USER	call api for data	START	1640528916784
+USER	call api for data	START	1640528916784
+USER	call api for data	START	1640528916784
+USER	call api for data	START	1640528916784
+USER	call api for data	START	1640528916784
+USER	call api for data	START	1640528916784
+REQUEST		Get all Posts - 1st Call	1640528916816	1640528917168	KO	status.find.is(200), but actually found 429
+REQUEST		Get all Posts - 1st Call	1640528916816	1640528917147	KO	status.find.is(200), but actually found 429
+REQUEST		Get all Posts - 1st Call	1640528916816	1640528917165	KO	status.find.is(200), but actually found 429
+REQUEST		Get all Posts - 1st Call	1640528916816	1640528917153	KO	status.find.is(200), but actually found 429
+REQUEST		Get all Posts - 1st Call	1640528916816	1640528917151	KO	status.find.is(200), but actually found 429
+REQUEST		Get all Posts - 1st Call	1640528916816	1640528917267	OK	 
+USER	call api for data	END	1640528922194
+USER	call api for data	END	1640528922194
+USER	call api for data	END	1640528922194
+USER	call api for data	END	1640528922194
+USER	call api for data	END	1640528922194
+USER	call api for data	END	1640528922285

@@ -1,0 +1,10 @@
+{
+  "simulation": "Simulations.TestFirstBasicAPISimulation",
+  "simulationId": "testfirstbasicapisimulation",
+  "start": 1640528915480,
+  "description": "",
+  "scenarios": ["call api for data"],
+  "assertions": [
+
+  ]
+}
